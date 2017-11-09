@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libORB_SLAM2.a"
+)

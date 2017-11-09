@@ -1,0 +1,3 @@
+[armeabi-v7a] Install        : libDBoW2.so => libs/armeabi-v7a/libDBoW2.so
+[armeabi-v7a] Install        : libDLib.so => libs/armeabi-v7a/libDLib.so
+[armeabi-v7a] Compile++ thumb: ORB_SLAM2 <= Frame.cc

@@ -1,0 +1,615 @@
+
+{
+	"buildFiles" : [ "D:/Android/Project/OrbSlam2Test/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "IlmImf",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libIlmImf.a",
+			"toolchain" : "3745389449"
+		},
+		"ORB_SLAM2-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ORB_SLAM2",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target ORB_SLAM2",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/System.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Tracking.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/LocalMapping.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/LoopClosing.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/ORBextractor.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/ORBmatcher.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/FrameDrawer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Converter.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/MapPoint.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/KeyFrame.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Map.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Optimizer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/PnPsolver.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Frame.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/KeyFrameDatabase.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Sim3Solver.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Initializer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/BowVector.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/FORB.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/FeatureVector.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/ScoringObject.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/DLib/src/DUtils/Random.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/DLib/src/DUtils/Timestamp.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/armeabi-v7a/libORB_SLAM2.so",
+			"toolchain" : "3745389449"
+		},
+		"g2o-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "g2o",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target g2o",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_sba.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_graph.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/matrix_structure.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/batch_stats.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/parameter.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/cache.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/solver.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/parameter_container.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/timeutil.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/os_specific.c",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/string_tools.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/property.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/armeabi-v7a/libg2o.so",
+			"toolchain" : "3745389449"
+		},
+		"libcpufeatures-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libcpufeatures.a",
+			"toolchain" : "3745389449"
+		},
+		"libjasper-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjasper",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjasper.a",
+			"toolchain" : "3745389449"
+		},
+		"libjpeg-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libjpeg",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibjpeg.a",
+			"toolchain" : "3745389449"
+		},
+		"libopencv_core-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_core",
+			"buildType" : "release",
+			"output" : "D:/Android/OrbSlam2Test/app/src/main/jniLibs/abi-armeabi-v7a/libopencv_core.a",
+			"toolchain" : "3745389449"
+		},
+		"libopencv_java3-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libopencv_java3",
+			"buildType" : "release",
+			"output" : "D:/Android/OrbSlam2Test/app/src/main/jniLibs/abi-armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "3745389449"
+		},
+		"libpng-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libpng",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibpng.a",
+			"toolchain" : "3745389449"
+		},
+		"libprotobuf-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libprotobuf",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibprotobuf.a",
+			"toolchain" : "3745389449"
+		},
+		"libtiff-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libtiff",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibtiff.a",
+			"toolchain" : "3745389449"
+		},
+		"libwebp-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "libwebp",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/liblibwebp.a",
+			"toolchain" : "3745389449"
+		},
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "3745389449"
+		},
+		"opencv_calib3d-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_calib3d.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_core-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_core.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_dnn-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_dnn.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_features2d-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_features2d.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_flann-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_flann",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_flann.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_highgui-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_highgui.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_imgcodecs-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_imgcodecs.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_imgproc-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_imgproc.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_java-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_java",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "3745389449"
+		},
+		"opencv_ml-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_ml",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_ml.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_objdetect-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_objdetect.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_photo-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_photo",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_photo.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_shape-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_shape",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_shape.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_stitching-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_stitching.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_superres-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_superres",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_superres.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_video-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_video",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_video.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_videoio-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_videoio.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_videostab-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/armeabi-v7a/libopencv_videostab.a",
+			"toolchain" : "3745389449"
+		},
+		"tbb-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tbb",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtbb.a",
+			"toolchain" : "3745389449"
+		},
+		"tegra_hal-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "tegra_hal",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/armeabi-v7a/libtegra_hal.a",
+			"toolchain" : "3745389449"
+		}
+	},
+	"toolchains" : 
+	{
+		"3745389449" : 
+		{
+			"cCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

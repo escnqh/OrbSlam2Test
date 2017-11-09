@@ -1,0 +1,14 @@
+Executable : D:\AndroidSDK\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\Android\Project\OrbSlam2Test\app
+-BD:\Android\Project\OrbSlam2Test\openCVLibrary330\.externalNativeBuild\cmake\debug\armeabi
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi
+-DANDROID_NDK=D:\AndroidSDK\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Android\Project\OrbSlam2Test\openCVLibrary330\build\intermediates\cmake\debug\obj\armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=D:\AndroidSDK\cmake\3.6.4111459\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\AndroidSDK\ndk-bundle\build\cmake\android.toolchain.cmake
+-DANDROID_PLATFORM=android-24
+jvmArgs : 
+

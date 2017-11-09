@@ -1,0 +1,5 @@
+D:/Android/Project/OrbSlam2Test/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/g2o.dir
+D:/Android/Project/OrbSlam2Test/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Android/Project/OrbSlam2Test/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/ORB_SLAM2.dir
+D:/Android/Project/OrbSlam2Test/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/SLAM2.dir
+D:/Android/Project/OrbSlam2Test/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir

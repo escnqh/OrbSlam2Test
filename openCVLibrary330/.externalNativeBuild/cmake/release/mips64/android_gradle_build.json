@@ -1,0 +1,607 @@
+
+{
+	"buildFiles" : [ "D:/Android/Project/OrbSlam2Test/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\mips64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"IlmImf-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "IlmImf",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/libIlmImf.a",
+			"toolchain" : "3745389449"
+		},
+		"ORB_SLAM2-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "ORB_SLAM2",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\mips64 --target ORB_SLAM2",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/System.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Tracking.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/LocalMapping.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/LoopClosing.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/ORBextractor.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/ORBmatcher.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/FrameDrawer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Converter.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/MapPoint.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/KeyFrame.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Map.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Optimizer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/PnPsolver.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Frame.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/KeyFrameDatabase.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Sim3Solver.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/ORB_SLAM2/src/Initializer.cc",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/BowVector.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/FORB.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/FeatureVector.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/src/ScoringObject.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/DLib/src/DUtils/Random.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -DORB_SLAM2_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/DBoW2/DLib/src/DUtils/Timestamp.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/mips64/libORB_SLAM2.so",
+			"toolchain" : "3745389449"
+		},
+		"g2o-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "g2o",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\mips64 --target g2o",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_sba.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_graph.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/matrix_structure.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/batch_stats.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/parameter.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/cache.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimizable_graph.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/solver.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/estimate_propagator.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/parameter_container.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/timeutil.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/os_specific.c",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/string_tools.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				},
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dg2o_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/g2o/g2o/stuff/property.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/mips64/libg2o.so",
+			"toolchain" : "3745389449"
+		},
+		"libcpufeatures-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libcpufeatures",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/libcpufeatures.a",
+			"toolchain" : "3745389449"
+		},
+		"libjasper-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libjasper",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibjasper.a",
+			"toolchain" : "3745389449"
+		},
+		"libjpeg-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libjpeg",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibjpeg.a",
+			"toolchain" : "3745389449"
+		},
+		"libopencv_core-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libopencv_core",
+			"buildType" : "release",
+			"output" : "D:/Android/OrbSlam2Test/app/src/main/jniLibs/abi-armeabi-v7a/libopencv_core.a",
+			"toolchain" : "3745389449"
+		},
+		"libopencv_java3-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libopencv_java3",
+			"buildType" : "release",
+			"output" : "D:/Android/OrbSlam2Test/app/src/main/jniLibs/abi-armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "3745389449"
+		},
+		"libpng-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libpng",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibpng.a",
+			"toolchain" : "3745389449"
+		},
+		"libprotobuf-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libprotobuf",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibprotobuf.a",
+			"toolchain" : "3745389449"
+		},
+		"libtiff-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libtiff",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibtiff.a",
+			"toolchain" : "3745389449"
+		},
+		"libwebp-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "libwebp",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/liblibwebp.a",
+			"toolchain" : "3745389449"
+		},
+		"native-lib-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "D:\\AndroidSDK\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Android\\Project\\OrbSlam2Test\\openCVLibrary330\\.externalNativeBuild\\cmake\\release\\mips64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mips64el-none-linux-android --gcc-toolchain=D:/AndroidSDK/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/AndroidSDK/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -ID:\\Android\\OrbSlam2Test\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\g2o\\g2o -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\ORB_SLAM2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include\\DUtils -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\DLib\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include\\DBoW2 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\DBoW2\\include -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\eigen3 -ID:\\Android\\Project\\OrbSlam2Test\\app\\src\\main\\cpp\\Thirdparty\\OpenCV-android-sdk\\sdk\\native\\jni\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\include -isystem D:\\AndroidSDK\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -isystem D:/AndroidSDK/ndk-bundle/sysroot/usr/include/mips64el-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fintegrated-as -Wa,--noexecstack -Wformat -Werror=format-security   -std=gnu++11 -fexceptions -frtti -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/.externalNativeBuild/cmake/release/mips64"
+				}
+			],
+			"output" : "D:/Android/Project/OrbSlam2Test/openCVLibrary330/build/intermediates/cmake/release/obj/mips64/libnative-lib.so",
+			"toolchain" : "3745389449"
+		},
+		"opencv_calib3d-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_calib3d",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_calib3d.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_core-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_core",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_core.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_dnn-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_dnn",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_dnn.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_features2d-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_features2d",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_features2d.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_flann-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_flann",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_flann.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_highgui-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_highgui",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_highgui.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_imgcodecs-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_imgcodecs",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_imgcodecs.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_imgproc-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_imgproc",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_imgproc.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_java-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_java",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_java3.so",
+			"toolchain" : "3745389449"
+		},
+		"opencv_ml-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_ml",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_ml.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_objdetect-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_objdetect",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_objdetect.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_photo-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_photo",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_photo.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_shape-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_shape",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_shape.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_stitching-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_stitching",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_stitching.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_superres-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_superres",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_superres.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_video-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_video",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_video.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_videoio-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_videoio",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_videoio.a",
+			"toolchain" : "3745389449"
+		},
+		"opencv_videostab-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "opencv_videostab",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/libs/mips64/libopencv_videostab.a",
+			"toolchain" : "3745389449"
+		},
+		"tbb-Release-mips64" : 
+		{
+			"abi" : "mips64",
+			"artifactName" : "tbb",
+			"buildType" : "release",
+			"output" : "D:/Android/Project/OrbSlam2Test/app/src/main/cpp/Thirdparty/OpenCV-android-sdk/sdk/native/3rdparty/libs/mips64/libtbb.a",
+			"toolchain" : "3745389449"
+		}
+	},
+	"toolchains" : 
+	{
+		"3745389449" : 
+		{
+			"cCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/AndroidSDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

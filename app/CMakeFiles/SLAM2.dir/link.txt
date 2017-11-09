@@ -1,0 +1,1 @@
+/usr/bin/c++.exe   -std=c++11 -fexceptions -frtti   -shared -Wl,--enable-auto-import -o cygSLAM2.dll -Wl,--out-implib,libSLAM2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 CMakeFiles/SLAM2.dir/src/main/cpp/native-lib.cpp.o libopencv_java3-NOTFOUND /usr/lib/w32api/liblog.a libORB_SLAM2.a libg2o.a 

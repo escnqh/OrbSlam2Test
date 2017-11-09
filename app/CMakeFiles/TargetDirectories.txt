@@ -1,0 +1,5 @@
+/cygdrive/d/Android/project/OrbSlam2Test/app/CMakeFiles/edit_cache.dir
+/cygdrive/d/Android/project/OrbSlam2Test/app/CMakeFiles/g2o.dir
+/cygdrive/d/Android/project/OrbSlam2Test/app/CMakeFiles/ORB_SLAM2.dir
+/cygdrive/d/Android/project/OrbSlam2Test/app/CMakeFiles/SLAM2.dir
+/cygdrive/d/Android/project/OrbSlam2Test/app/CMakeFiles/rebuild_cache.dir
