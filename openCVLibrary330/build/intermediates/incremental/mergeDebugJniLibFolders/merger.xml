@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\OrbSlam2Test\openCVLibrary330\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="D:\OrbSlam2Test\openCVLibrary330\src\debug\jniLibs"/></dataSet></merger>

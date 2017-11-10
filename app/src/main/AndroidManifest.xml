@@ -2,6 +2,31 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ntanougat.orbslam2test">
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +40,31 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".DataSetModeActivity"
+            android:label="DataSetMode"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".CameraModeActivity"
+            android:label="CameraMode"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".FileChooserActivity"
+            android:label="ChooseDirectory"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ORBSLAMForDataSetActivity"
+            android:label="ORB_SLAM2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name=".ORBSLAMForCameraActivity"
+            android:label="ORB_SLAM2"
+            android:screenOrientation="landscape" >
         </activity>
     </application>
 

@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">OrbSlam2Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_title">ORB_SLAM2\n for Android</string>
+    <string name="dataset_mode">DataSetMode</string>
+    <string name="camera_mode">CameraMode</string>
+    <string name="dataset_select_pics">select a dataset</string>
+    <string name="dataset_select_voc">select Voc.txt</string>
 </resources>
