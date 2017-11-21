@@ -5,7 +5,7 @@ import java.io.File;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
-import orb.slam2.android.nativefunc.OrbNdkHelper;
+import com.ntanougat.orbslam2test.NdkHelper.OrbNdkHelper;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;

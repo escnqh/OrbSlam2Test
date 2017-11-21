@@ -28,7 +28,7 @@ MAIN_DIR:=$(LOCAL_PATH)
 OPENCV_LIB_TYPE:=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")  
 #try to load OpenCV.mk from default install location  
-include $ C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
+include  C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 else  
 include $(OPENCV_MK_PATH)  
 endif 
@@ -69,7 +69,7 @@ MAIN_DIR:=$(LOCAL_PATH)
 OPENCV_LIB_TYPE:=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")  
 #try to load OpenCV.mk from default install location  
-include $ C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
+include  C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 else  
 include $(OPENCV_MK_PATH)  
 endif 
@@ -124,7 +124,7 @@ MAIN_DIR:=$(LOCAL_PATH)
 OPENCV_LIB_TYPE:=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")  
 #try to load OpenCV.mk from default install location  
-include $ C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
+include  C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 else  
 include $(OPENCV_MK_PATH)  
 endif 
@@ -152,7 +152,7 @@ MAIN_DIR:=$(LOCAL_PATH)
 OPENCV_LIB_TYPE:=STATIC
 ifeq ("$(wildcard $(OPENCV_MK_PATH))","")  
 #try to load OpenCV.mk from default install location  
-include $ C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
+include  C:/opencv-3.3.0-android-sdk/OpenCV-android-sdk/sdk/native/jni/OpenCV.mk
 else  
 include $(OPENCV_MK_PATH)  
 endif 

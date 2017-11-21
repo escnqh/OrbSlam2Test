@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.3'
     defaultConfig {
         applicationId "com.ntanougat.orbslam2test"
-        minSdkVersion 20
+        minSdkVersion 24
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"

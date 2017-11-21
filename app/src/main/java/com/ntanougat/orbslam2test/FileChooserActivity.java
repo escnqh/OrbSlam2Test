@@ -4,7 +4,7 @@ import java.io.File;
 import java.security.acl.LastOwnerException;
 import java.util.ArrayList;
 
-import orb.slam2.android.FileChooserAdapter.FileInfo;
+import com.ntanougat.orbslam2test.FileChooserAdapter.FileInfo;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
