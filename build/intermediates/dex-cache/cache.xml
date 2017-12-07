@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_7acd5c6fee551de73f54887d39ec1a0b559583e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_9b08783f29703873526c6ab27c8454fe39e4a2b5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_9b08783f29703873526c6ab27c8454fe39e4a2b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_c55a6417602211fbab7efe76f7c809d0ddccc1fb.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_c55a6417602211fbab7efe76f7c809d0ddccc1fb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.2_5449a9ae244bbc2a850bc10938724fb7f4f3490f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_55032c203a65275a826e8c7ff7d716926d3eca43\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_55032c203a65275a826e8c7ff7d716926d3eca43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_5449a9ae244bbc2a850bc10938724fb7f4f3490f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7523f99aba987dfc5de081022ebc03fd1773f4ee">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_eddb38f06a5f0976494124d8d621da5f0d7bca7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_654a1c71889d7bd4d690d9708c2869def26f828f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_b5ec4643f1ef42f74d13eeb139766e2c16b92adf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_654a1c71889d7bd4d690d9708c2869def26f828f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_43ae306acb7175229e9a57ef332a8784d4fba6e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_e80a8e0a1e02bbe94be7c834f19d741b243266db.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_43ae306acb7175229e9a57ef332a8784d4fba6e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_e80a8e0a1e02bbe94be7c834f19d741b243266db\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_b5ec4643f1ef42f74d13eeb139766e2c16b92adf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_9f1dd6865896c0ac7149c8ed6e586a8190f72b3b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_9f1dd6865896c0ac7149c8ed6e586a8190f72b3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_a4282b1ca9bd2774376cb11a689b5ad06334cd33.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_a4282b1ca9bd2774376cb11a689b5ad06334cd33\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_fe35e2f00fbbfde46b4144d3509e0f5f6d2285d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_fe35e2f00fbbfde46b4144d3509e0f5f6d2285d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\OrbSlam2Test\openCVLibrary330\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="88f1d854b648ef4b3a56b4d92782a4fa1d65c1ab">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\pre-dexed\debug\classes_abaa8f067a7db68c1881c1a1544310e01510b501.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_37de50d0775450fbce5cf3327a1b2d2ddb92c4e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\OrbSlam2Test\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\OrbSlam2Test\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_7acd5c6fee551de73f54887d39ec1a0b559583e1\classes.dex" />
+    </item>
+
+</items>

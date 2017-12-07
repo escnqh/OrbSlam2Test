@@ -14,13 +14,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        // Example of a call to a native method
         requestWindowFeature(Window.FEATURE_NO_TITLE);//隐藏标题
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);//设置全屏
         setContentView(R.layout.activity_main);
+
+        // Example of a call to a native method
         datasetMode=(Button)findViewById(R.id.dataset_mode);
         cameraMode=(Button)findViewById(R.id.camera_mode);
         datasetMode.setOnClickListener(this);
